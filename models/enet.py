@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from base import BaseModel
-from utils.helpers import initialize_weights
+from pytorch_segmentation.base import BaseModel
+from pytorch_segmentation.utils.helpers import initialize_weights
 from itertools import chain
 
 class InitalBlock(nn.Module):

@@ -1,9 +1,9 @@
-from base import BaseModel
+from pytorch_segmentation.base import BaseModel
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torchvision import models
-from utils.helpers import set_trainable
+from pytorch_segmentation.utils.helpers import set_trainable
 from itertools import chain
 from math import ceil
 

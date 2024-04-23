@@ -1,8 +1,8 @@
-from base import BaseModel
+from pytorch_segmentation.base import BaseModel
 import torch.nn as nn
 import torch.nn.functional as F
 from torchvision import models
-from utils.helpers import get_upsampling_weight
+from pytorch_segmentation.utils.helpers import get_upsampling_weight
 import torch
 from itertools import chain
 
